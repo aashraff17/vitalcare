@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="512" fill="#ffffff"/>
+  
+  <!-- Monitor frame -->
+  <rect x="250" y="200" width="524" height="420" rx="24" fill="none" stroke="#DC2626" stroke-width="32"/>
+  
+  <!-- Monitor stand -->
+  <rect x="450" y="640" width="124" height="80" fill="#DC2626"/>
+  <rect x="380" y="720" width="264" height="24" rx="12" fill="#DC2626"/>
+  
+  <!-- Heart icon inside monitor -->
+  <g transform="translate(512, 380)">
+    <!-- Heart shape -->
+    <path d="M 0,-40 C -60,-100 -140,-80 -140,20 C -140,100 0,180 0,180 C 0,180 140,100 140,20 C 140,-80 60,-100 0,-40 Z" fill="#DC2626"/>
+  </g>
+  
+  <!-- Heartbeat line at bottom of monitor -->
+  <g transform="translate(280, 550)">
+    <path d="M 0,0 L 40,0 L 60,-30 L 80,30 L 100,-10 L 140,0 L 160,0" stroke="#DC2626" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
